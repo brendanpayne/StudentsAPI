@@ -93,6 +93,11 @@ namespace StudentsAPI.Data.Migrations
                 table: "FavoriteFoods",
                 columns: new[] { "Id", "GlutenFree", "Name", "Origin", "Vegan" },
                 values: new object[] { 4, false, "Doughnuts", "Dutch", false });
+                
+            migrationBuilder.InsertData(
+                table: "FavoriteFoods",
+                columns: new[] { "Id", "GlutenFree", "Name", "Origin", "Vegan" },
+                values: new object[] { 5, true, "Pasta", "Asian", false });
 
             migrationBuilder.InsertData(
                 table: "FavoriteMusics",
@@ -113,6 +118,12 @@ namespace StudentsAPI.Data.Migrations
                 table: "FavoriteMusics",
                 columns: new[] { "Id", "FavoriteAlbum", "FavoriteArtist", "FavoriteBand", "FavoriteSong", "Genre" },
                 values: new object[] { 4, "AJR - Neotheater", "Ben Platt", "Glass Animals", "John Mayer - Wild Blue", "Pop" });
+                
+            migrationBuilder.InsertData(
+                table: "FavoriteMusics",
+                columns: new[] { "Id", "FavoriteAlbum", "FavoriteArtist", "FavoriteBand", "FavoriteSong", "Genre" },
+                values: new object[] { 5, "Amine - ONEPOINTFIVE", "Baby Keem", "One Direction", "blackbear - halfalive", "Pop" });
+
 
             migrationBuilder.InsertData(
                 table: "FavoritePlaces",
@@ -133,6 +144,12 @@ namespace StudentsAPI.Data.Migrations
                 table: "FavoritePlaces",
                 columns: new[] { "Id", "City", "Country", "Description", "MustVisit", "Name", "Visited" },
                 values: new object[] { 4, "Chicago", "United States", "Reflective Sculpture.", true, "The Bean", true });
+                
+             migrationBuilder.InsertData(
+                table: "FavoritePlaces",
+                columns: new[] { "Id", "City", "Country", "Description", "MustVisit", "Name", "Visited" },
+                values: new object[] { 5, "New York", "United States", "Historical landmark .", true, "Empire State Building", true });
+
 
             migrationBuilder.InsertData(
                 table: "Students",
@@ -153,6 +170,12 @@ namespace StudentsAPI.Data.Migrations
                 table: "Students",
                 columns: new[] { "Id", "BirthDate", "CollegeProgram", "FullName", "YearInProgram" },
                 values: new object[] { 4, new DateTime(2002, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified), "Information Technology", "Amber Willis", "Sophomore" });
+        
+            migrationBuilder.InsertData(
+                table: "Students",
+                columns: new[] { "Id", "BirthDate", "CollegeProgram", "FullName", "YearInProgram" },
+                values: new object[] { 5, new DateTime(2002, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified), "Information Technology", "Jenna Wasilko", "Sophomore" });
+     
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
