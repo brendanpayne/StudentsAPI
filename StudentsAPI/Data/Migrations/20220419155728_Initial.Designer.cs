@@ -72,6 +72,14 @@ namespace StudentsAPI.Data.Migrations
                             Name = "Doughnuts",
                             Origin = "Dutch",
                             Vegan = false
+                        },
+                        new
+                        {
+                            Id = 5,
+                            GlutenFree = false,
+                            Name = "Pasta",
+                            Origin = "Asian",
+                            Vegan = false
                         });
                 });
 
@@ -135,6 +143,15 @@ namespace StudentsAPI.Data.Migrations
                             FavoriteArtist = "Ben Platt",
                             FavoriteBand = "Glass Animals",
                             FavoriteSong = "John Mayer - Wild Blue",
+                            Genre = "Pop" 
+                        },
+                        new
+                        {
+                            Id = 5,
+                            FavoriteAlbum = "Amine - ONEPOINTFIVE",
+                            FavoriteArtist = "Baby Keen",
+                            FavoriteBand = "One Direction",
+                            FavoriteSong = "blackbear - halfalive",
                             Genre = "Pop"
                         });
                 });
@@ -207,6 +224,16 @@ namespace StudentsAPI.Data.Migrations
                             MustVisit = true,
                             Name = "The Bean",
                             Visited = true
+                         },
+                         new
+                        {
+                            Id = 5,
+                            City = "New York",
+                            Country = "United States",
+                            Description = "Historical landmark.",
+                            MustVisit = true,
+                            Name = "Emptire State Building",
+                            Visited = true
                         });
                 });
 
@@ -263,6 +290,14 @@ namespace StudentsAPI.Data.Migrations
                             BirthDate = new DateTime(2002, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             CollegeProgram = "Information Technology",
                             FullName = "Amber Willis",
+                            YearInProgram = "Sophomore"
+                         },
+                        new
+                        {
+                            Id = 5,
+                            BirthDate = new DateTime(2002, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CollegeProgram = "Information Technology",
+                            FullName = "Jenna Wasilko",
                             YearInProgram = "Sophomore"
                         });
                 });
