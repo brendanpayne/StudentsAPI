@@ -30,10 +30,10 @@ namespace StudentsAPI.Data
                 new Student
                 {
                     Id = 2,
-                    FullName = "John Doe",
-                    BirthDate = new System.DateTime(1980, 4, 1),
-                    CollegeProgram = "Business",
-                    YearInProgram = "Sophomore"
+                    FullName = "Brendan Payne",
+                    BirthDate = new System.DateTime(1999, 10, 22),
+                    CollegeProgram = "Information Technology",
+                    YearInProgram = "Pre-Junior"
                 },
                 new Student
                 {
@@ -73,8 +73,8 @@ namespace StudentsAPI.Data
                 new FavoriteFood
                 {
                     Id = 2,
-                    Name = "Waffles",
-                    Origin = "Belgia",
+                    Name = "Fajitas",
+                    Origin = "Mexico",
                     GlutenFree = false,
                     Vegan = false
                 },
@@ -117,11 +117,11 @@ namespace StudentsAPI.Data
                 new FavoriteMusic
                 {
                     Id = 2,
-                    Genre = "Pop",
-                    FavoriteSong = "Frank Sinatra - My Way",
-                    FavoriteAlbum = "Stevie Wonder - Songs In The Key Of Life",
-                    FavoriteArtist = "George Michael",
-                    FavoriteBand = "ABBA"
+                    Genre = "Alternative",
+                    FavoriteSong = "Marty Robins - Cool Water",
+                    FavoriteAlbum = "MGMT - Congratulations",
+                    FavoriteArtist = "Bob Dylan",
+                    FavoriteBand = "Black Country, New Road"
                 },
                 new FavoriteMusic
                 {
@@ -166,10 +166,10 @@ namespace StudentsAPI.Data
                 new FavoritePlace
                 {
                     Id = 2,
-                    Name = "The Louvre",
-                    City = "Paris",
-                    Country = "France",
-                    Description = "The world's largest art museum.",
+                    Name = "Yosemite Falls",
+                    City = "Yosemite National Park",
+                    Country = "United States",
+                    Description = "The tallest waterfall in the park.",
                     MustVisit = true,
                     Visited = true
                 },

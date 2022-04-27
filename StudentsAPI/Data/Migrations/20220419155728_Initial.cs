@@ -82,7 +82,7 @@ namespace StudentsAPI.Data.Migrations
             migrationBuilder.InsertData(
                 table: "FavoriteFoods",
                 columns: new[] { "Id", "GlutenFree", "Name", "Origin", "Vegan" },
-                values: new object[] { 2, false, "Waffles", "Belgia", false });
+                values: new object[] { 2, false, "Fajitas", "Mexico", false });
 
             migrationBuilder.InsertData(
                 table: "FavoriteFoods",
@@ -107,7 +107,7 @@ namespace StudentsAPI.Data.Migrations
             migrationBuilder.InsertData(
                 table: "FavoriteMusics",
                 columns: new[] { "Id", "FavoriteAlbum", "FavoriteArtist", "FavoriteBand", "FavoriteSong", "Genre" },
-                values: new object[] { 2, "Stevie Wonder - Songs In The Key Of Life", "George Michael", "ABBA", "Frank Sinatra - My Way", "Pop" });
+                values: new object[] { 2, "MGMT - Congratulatons", "Bob Dylan", "Black Country, New Road", "Marty Robins - Cool Water", "Alternative" });
 
             migrationBuilder.InsertData(
                 table: "FavoriteMusics",
@@ -133,7 +133,7 @@ namespace StudentsAPI.Data.Migrations
             migrationBuilder.InsertData(
                 table: "FavoritePlaces",
                 columns: new[] { "Id", "City", "Country", "Description", "MustVisit", "Name", "Visited" },
-                values: new object[] { 2, "Paris", "France", "The world's largest art museum.", true, "The Louvre", true });
+                values: new object[] { 2, "Yosemite National Park", "United States", "The tallest waterfal in the park.", true, "The Louvre", true });
 
             migrationBuilder.InsertData(
                 table: "FavoritePlaces",
@@ -159,7 +159,7 @@ namespace StudentsAPI.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Students",
                 columns: new[] { "Id", "BirthDate", "CollegeProgram", "FullName", "YearInProgram" },
-                values: new object[] { 2, new DateTime(1980, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Business", "John Doe", "Sophomore" });
+                values: new object[] { 2, new DateTime(1999, 10, 22, 0, 0, 0, 0, DateTimeKind.Unspecified), "Information Technology", "Brendan Payne", "Pre-Junior" });
 
             migrationBuilder.InsertData(
                 table: "Students",

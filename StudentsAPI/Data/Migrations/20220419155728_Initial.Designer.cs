@@ -53,8 +53,8 @@ namespace StudentsAPI.Data.Migrations
                         {
                             Id = 2,
                             GlutenFree = false,
-                            Name = "Waffles",
-                            Origin = "Belgia",
+                            Name = "Fajitas",
+                            Origin = "Mexico",
                             Vegan = false
                         },
                         new
@@ -121,11 +121,11 @@ namespace StudentsAPI.Data.Migrations
                         new
                         {
                             Id = 2,
-                            FavoriteAlbum = "Stevie Wonder - Songs In The Key Of Life",
-                            FavoriteArtist = "George Michael",
-                            FavoriteBand = "ABBA",
-                            FavoriteSong = "Frank Sinatra - My Way",
-                            Genre = "Pop"
+                            FavoriteAlbum = "MGMT - Congratulations",
+                            FavoriteArtist = "Bob Dylan",
+                            FavoriteBand = "Black Country, New Road",
+                            FavoriteSong = "Marty Robbins - Cool Water",
+                            Genre = "Alternative"
                         },
                         new
                         {
@@ -198,11 +198,11 @@ namespace StudentsAPI.Data.Migrations
                         new
                         {
                             Id = 2,
-                            City = "Paris",
-                            Country = "France",
-                            Description = "The world's largest art museum.",
+                            City = "Yosemite National Park",
+                            Country = "United States",
+                            Description = "The tallest waterfall in the park.",
                             MustVisit = true,
-                            Name = "The Louvre",
+                            Name = "Yosemite Falls",
                             Visited = true
                         },
                         new
@@ -272,9 +272,9 @@ namespace StudentsAPI.Data.Migrations
                         {
                             Id = 2,
                             BirthDate = new DateTime(1980, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            CollegeProgram = "Business",
-                            FullName = "John Doe",
-                            YearInProgram = "Sophomore"
+                            CollegeProgram = "Information Technology",
+                            FullName = "Brendan Payne",
+                            YearInProgram = "Pre-Junior"
                         },
                         new
                         {
